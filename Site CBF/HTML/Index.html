@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../CSS/Stile.css">
+
+    <title> Validação CBF </title>
+</head>
+<body>
+    
+    <div class="cabeça">
+        <img class="cbf_logo" src="../IMG/Logo/Logo-CBF.png" />
+        
+        <h1 class="titulo"> Validação CBF </h1>
+    </div>
+
+
+    <div class="formulario_conteiner">
+        <form action="">
+
+            <div class="formulario">
+
+            <label for=""> </label>
+            <input
+            class="bt"
+            name="nome_usuario"
+            type="text"
+            placeholder="Seu Nome" />
+
+            <label for=""> </label>
+            <input
+            class="bt"
+            name="sobrenome_usuario"
+            type="text"
+            placeholder="Sobrenome" />
+
+            <label for=""> </label>
+            <input
+            class="bt"
+            name="desc_usuario"
+            type="text"
+            placeholder="Bio" />
+            
+            <div class="">
+            <label for=""> </label>
+            <input
+            class="bt_url"
+            name="url_ft"
+            type="text"
+            placeholder="URL da sua Foto" />
+
+            <label for=""> </label>
+            <input
+            class="bt_altura"
+            name="altura"
+            type="text"
+            id="numero_input"
+            placeholder=" Sua Altura" />
+
+                <label for=""> </label>
+                <input
+                class="bt_altura"
+                name="peso"
+                type="number"
+                placeholder="  Seu Peso" />
+            </div>
+
+            </div>
+
+            <div class="conteiner_bt_validar">
+                <button class="bt_validar" type="submit" id="validar"> Validar </button>
+            </div>
+
+        </form>
+    </div>
+
+<div class="escondido" id="escondido">
+    <div class="conteiner_resultado">
+
+        
+        <div>
+            <img 
+            src="../IMG/Ft Perfil/defalt_user_img - Copia.jpg"
+            alt="" 
+            class="ft_usuario"
+            id="saida_ft" />
+        </div>
+
+<div class="grupo_saida_sem_ft">
+        <div class="grupo_saida_nome_sobrenome">
+            <div class="cont_nome">
+                <h1 class="saida_nome_usuario" id="saida_nome">  </h1>
+                <h2 class="saida_sobrenome_usuario" id="saida_sobrenome" >  </h2>
+            </div>
+
+            <p class="saida_descricao_usuario" id="saida_descricao" >   </p>
+        </div>
+
+
+        <div class="grupo_resposta_imc">                       
+                <p class="saida_altura" id="saida_altura" >  </p>            
+                <p class="" id="saida_peso" >  </p>
+                <p class="" id="saida_IMC" >  </p>                    
+        </div>
+
+       
+        <div class="conteiner_bt"> 
+            <p class="" id="saida_bt" >   </p>
+        </div>
+    
+</div>
+
+    </div>
+</div>
+
+<script src="../Js/Script.js"></script>
+
+</body>
+</html>

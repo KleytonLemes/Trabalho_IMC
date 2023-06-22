@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+  
+body {
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 45px;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.cabeça {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.cbf_logo {
+    width: 100px;
+    height: 100px
+}
+
+.titulo {
+    font-size: 250%;
+}
+
+.formulario_conteiner {
+    line-height: 52px;
+}
+
+.formulario {
+background-color: #d2d2d225;
+padding: 2vh;
+border-radius: 13px;
+}
+
+
+
+.bt {
+    text-align: center;
+    background-color: #dddddd;
+    font-size: 120%;
+
+    height: 4vh;
+    width: 224px;
+    border-radius: 10px;
+    border-width: 0;
+    box-shadow: 0px 0px 20px rgba(123, 236, 240, 0.345);
+} .bt:hover {
+        box-shadow: 0px 0px 16px 0 rgba(11, 153, 248, 0.685), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+.bt_url {
+    background-color: #dddddd;
+    text-align: center;
+    font-size: 120%;
+
+    height: 4vh;
+    width: 452px;
+    border-radius: 10px;
+    border-width: 0;
+    box-shadow: 0px 0px 20px rgba(123, 236, 240, 0.345);
+} .bt_url:hover {
+        box-shadow: 0px 0px 20px 0 rgba(42, 160, 239, 0.771), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+.bt_altura {
+    background-color: #dddddd;
+    text-align: center;
+    font-size: 120%;
+
+    height: 4vh;
+    width: 110px;
+    border-radius: 10px;
+    border-width: 0;
+    box-shadow: 0px 0px 20px rgba(123, 236, 240, 0.345);
+} .bt_altura:hover {
+        box-shadow: 0px 0px 16px 0 rgba(11, 153, 248, 0.685), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+.conteiner_bt_validar {
+    display: flex;
+    justify-content: center;
+}
+
+.bt_validar {
+    appearance: button;
+    backface-visibility: hidden;
+    background-color: #405cf5;
+    border-radius: 10px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .1) 0 2px 5px 0, rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 150%;
+    height: 44px;
+    line-height: 1.15;
+    margin: 12px 0 0;
+    outline: none;
+    overflow: hidden;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all .2s,box-shadow .08s ease-in;
+    touch-action: manipulation;
+    width: 40%;
+
+    max-width: 60%;
+} .bt_validar:hover {
+    font-size: 200%;
+        background-color: #405bf500;
+}
+
+.escondido {
+    display: none ;
+}
+
+.conteiner_resultado {
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 11px;
+    width: 680px;
+    background-color: #d2d2d225; 
+    border-radius: 13px;
+    
+}
+
+.ft_usuario {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.grupo_saida_sem_ft {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.grupo_saida_nome_sobrenome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid rgb(149, 149, 149);
+}
+
+.cont_nome {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.saida_nome_usuario {
+    font-size: 6vh;
+}
+
+.saida_sobrenome_usuario {
+    font-size: 4vh;
+}
+
+.saida_descricao_usuario {
+    font-size: 3vh;
+    line-height: 10vh;
+}
+
+.grupo_resposta_imc {
+
+    line-height: 30px;
+}
+
+
+.cont_teste {
+    display: flex;
+}
+
+.conteiner_bt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1ccd0b;
+    height: 50px;
+    
+}
